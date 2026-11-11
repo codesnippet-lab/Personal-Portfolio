@@ -1,0 +1,518 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Arjun Sharma - First-Year Computer Science Student and Aspiring Developer">
+    <title>Arjun Sharma | Developer Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="navbar">
+        <a href="#home" class="logo">AS<span>.</span></a>
+
+        <nav id="nav-menu">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#hobbies" class="nav-link">Hobbies</a>
+            <a href="#achievements" class="nav-link">Achievements</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+            <button id="theme-toggle" aria-label="Toggle theme">☀️</button>
+            <button id="menu-toggle" aria-label="Open navigation">☰</button>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HOME SECTION -->
+        <section id="home" class="hero section">
+
+            <div class="hero-content">
+                <span class="availability">
+                    <span class="status-dot"></span>
+                    FIRST YEAR CS STUDENT
+                </span>
+
+                <p class="greeting">HELLO, WORLD! 👋</p>
+
+                <h1>
+                    I'm <span class="gradient-text">Arjun Sharma</span>
+                </h1>
+
+                <h2>
+                    Exploring Technology.
+                    <span class="typing-text">Building the Future.</span>
+                </h2>
+
+                <p class="hero-description">
+                    I'm a Computer Science student passionate about
+                    programming, problem-solving and technology.
+                    Currently learning, experimenting and building
+                    projects one step at a time.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">
+                        Explore My Work ↗
+                    </a>
+
+                    <a href="#contact" class="btn secondary-btn">
+                        Get In Touch
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/codesnippet-lab/invoice-pilot-ai"
+                       target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+
+                    <a href="https://www.linkedin.com/in/arjun-sharma-26a567419"
+                       target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+
+                <div class="floating-card code-card">
+                    <span class="code-dots">● ● ●</span>
+                    <pre>
+<span class="code-purple">class</span> Developer:
+    name = <span class="code-green">"Arjun"</span>
+    passion = <span class="code-green">"Learning"</span>
+    goal = <span class="code-green">"Building"</span>
+
+    <span class="code-purple">def</span> grow(self):
+        <span class="code-purple">return</span> <span class="code-green">"Every day!"</span>
+                    </pre>
+                </div>
+
+                <div class="floating-badge badge-one">💻 Java</div>
+                <div class="floating-badge badge-two">🤖 AI Explorer</div>
+                <div class="floating-badge badge-three">🚀 Learning</div>
+
+                <div class="profile-circle">
+                    <span>AS</span>
+                    <small>DEVELOPER IN PROGRESS</small>
+                </div>
+            </div>
+
+            <a href="#about" class="scroll-indicator">
+                SCROLL TO EXPLORE ↓
+            </a>
+
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section">
+            <div class="section-heading">
+                <span class="section-tag">01 / ABOUT</span>
+                <h2>Get to Know <span class="gradient-text">Me</span></h2>
+                <p>A little introduction about who I am and what I enjoy.</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-card glass-card">
+                    <div class="card-icon">👨‍💻</div>
+                    <h3>Who Am I?</h3>
+                    <p>
+                        I am a first-year Computer Science student at
+                        Bosscoder School of Technology, passionate about
+                        technology, programming and problem-solving.
+                    </p>
+                    <p>
+                        I am currently exploring Java, Python, Web
+                        Development and AI while improving my development
+                        skills through practical projects.
+                    </p>
+                </div>
+
+                <div class="about-card glass-card">
+                    <div class="card-icon">🎯</div>
+                    <h3>My Goals</h3>
+                    <p>
+                        My goal is to become a skilled software developer,
+                        strengthen my programming fundamentals, explore
+                        AI and emerging technologies, and build real-world
+                        projects.
+                    </p>
+                    <p>
+                        I also look forward to learning through hackathons,
+                        teamwork and collaboration.
+                    </p>
+                </div>
+
+                <div class="about-card glass-card">
+                    <div class="card-icon">💡</div>
+                    <h3>What Interests Me?</h3>
+                    <div class="interest-tags">
+                        <span>Java Programming</span>
+                        <span>Web Development</span>
+                        <span>Artificial Intelligence</span>
+                        <span>Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION SECTION -->
+        <section id="education" class="section alternate-section">
+            <div class="section-heading">
+                <span class="section-tag">02 / EDUCATION</span>
+                <h2>My Learning <span class="gradient-text">Journey</span></h2>
+                <p>The educational path that brought me here.</p>
+            </div>
+
+            <div class="timeline">
+
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-label">CURRENT EDUCATION</span>
+                    <h3>Bosscoder School of Technology</h3>
+                    <h4>Computer Science</h4>
+                    <p>First Year Student</p>
+                    <p>
+                        Learning programming fundamentals, computer
+                        science concepts and practical development.
+                    </p>
+                    <span class="education-location">📍 Bengaluru</span>
+                </div>
+
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-label">SCHOOL EDUCATION</span>
+                    <h3>Sacred Heart Convent Higher Secondary School</h3>
+                    <h4>School Education</h4>
+                    <p>Mathura</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="section">
+            <div class="section-heading">
+                <span class="section-tag">03 / SKILLS</span>
+                <h2>Technologies I'm <span class="gradient-text">Exploring</span></h2>
+                <p>I'm a beginner, continuously learning and improving.</p>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card glass-card">
+                    <div class="skill-top">
+                        <span>🌐 HTML</span>
+                        <span>Beginner</span>
+                    </div>
+                    <div class="skill-track"><div class="skill-fill" style="--level:25%"></div></div>
+                </div>
+
+                <div class="skill-card glass-card">
+                    <div class="skill-top">
+                        <span>🎨 CSS</span>
+                        <span>Beginner</span>
+                    </div>
+                    <div class="skill-track"><div class="skill-fill" style="--level:25%"></div></div>
+                </div>
+
+                <div class="skill-card glass-card">
+                    <div class="skill-top">
+                        <span>⚡ JavaScript</span>
+                        <span>Beginner</span>
+                    </div>
+                    <div class="skill-track"><div class="skill-fill" style="--level:25%"></div></div>
+                </div>
+
+                <div class="skill-card glass-card">
+                    <div class="skill-top">
+                        <span>🐍 Python</span>
+                        <span>Beginner</span>
+                    </div>
+                    <div class="skill-track"><div class="skill-fill" style="--level:25%"></div></div>
+                </div>
+
+                <div class="skill-card glass-card">
+                    <div class="skill-top">
+                        <span>☕ Java</span>
+                        <span>Beginner</span>
+                    </div>
+                    <div class="skill-track"><div class="skill-fill" style="--level:25%"></div></div>
+                </div>
+
+                <div class="skill-card glass-card">
+                    <div class="skill-top">
+                        <span>🐙 Git & GitHub</span>
+                        <span>Beginner</span>
+                    </div>
+                    <div class="skill-track"><div class="skill-fill" style="--level:25%"></div></div>
+                </div>
+
+            </div>
+
+            <p class="skills-note">
+                Progress bars are visual learning indicators, not measured
+                proficiency scores. I am still developing these skills.
+            </p>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="section alternate-section">
+            <div class="section-heading">
+                <span class="section-tag">04 / PROJECTS</span>
+                <h2>Things I've <span class="gradient-text">Built</span></h2>
+                <p>Learning by creating and experimenting with ideas.</p>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card glass-card">
+                    <div class="project-visual invoice-visual">
+                        <span>📄</span>
+                        <small>AI + INVOICE PROCESSING</small>
+                    </div>
+
+                    <div class="project-info">
+                        <span class="project-number">PROJECT 01</span>
+                        <h3>InvoicePilot AI</h3>
+                        <p>
+                            A project exploring how artificial intelligence
+                            can help with invoice processing. Built as part
+                            of my Hacktoberfest learning journey.
+                        </p>
+
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>Streamlit</span>
+                            <span>AI</span>
+                        </div>
+
+                        <a href="https://github.com/codesnippet-lab/invoice-pilot-ai"
+                           target="_blank" rel="noopener noreferrer"
+                           class="project-link">
+                            View GitHub Repository ↗
+                        </a>
+
+                        <a href="https://invoice-pilot-ai-b2iqponirobba7zwczpkud.streamlit.app"
+                           target="_blank" rel="noopener noreferrer"
+                           class="project-link">
+                            Live Demo ↗
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card glass-card">
+                    <div class="project-visual phantom-visual">
+                        <span>👻</span>
+                        <small>PERSONAL PROJECT</small>
+                    </div>
+
+                    <div class="project-info">
+                        <span class="project-number">PROJECT 02</span>
+                        <h3>PhantomCode</h3>
+                        <p>
+                            A project from my Hacktoberfest development
+                            journey. More project details and a repository
+                            link will be added as they are finalized.
+                        </p>
+
+                        <div class="tech-tags">
+                            <span>Development</span>
+                            <span>Learning</span>
+                        </div>
+
+                        <span class="project-status">Details to be added</span>
+                    </div>
+                </article>
+
+                <article class="project-card glass-card">
+                    <div class="project-visual team-visual">
+                        <span>👥</span>
+                        <small>COLLABORATIVE PROJECT</small>
+                    </div>
+
+                    <div class="project-info">
+                        <span class="project-number">PROJECT 03</span>
+                        <h3>College Team Portfolio</h3>
+                        <p>
+                            A collaborative college project developed
+                            with a team of four students as part of
+                            our web development learning experience.
+                        </p>
+
+                        <div class="tech-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <span class="project-status">Team Project</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- HOBBIES SECTION -->
+        <section id="hobbies" class="section">
+            <div class="section-heading">
+                <span class="section-tag">05 / BEYOND CODING</span>
+                <h2>Life Outside <span class="gradient-text">Code</span></h2>
+                <p>Some things I enjoy when I'm away from my laptop.</p>
+            </div>
+
+            <div class="hobbies-grid">
+                <div class="hobby-card glass-card">
+                    <span>🏏</span>
+                    <h3>Outdoor Sports</h3>
+                    <p>I enjoy playing outdoor sports and staying active.</p>
+                </div>
+
+                <div class="hobby-card glass-card">
+                    <span>🎬</span>
+                    <h3>Movies</h3>
+                    <p>I enjoy watching movies in my free time.</p>
+                </div>
+
+                <div class="hobby-card glass-card">
+                    <span>📺</span>
+                    <h3>Web Series</h3>
+                    <p>I like exploring and watching different web series.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ACHIEVEMENTS SECTION -->
+        <section id="achievements" class="section alternate-section">
+            <div class="section-heading">
+                <span class="section-tag">06 / ACHIEVEMENTS</span>
+                <h2>My <span class="gradient-text">Milestones</span></h2>
+                <p>Every learning experience is a step forward.</p>
+            </div>
+
+            <div class="achievement-card glass-card">
+                <div class="achievement-icon">🏅</div>
+
+                <div>
+                    <span class="achievement-year">2026</span>
+                    <h3>Hacktoberfest Participation</h3>
+                    <p>
+                        Participated in Hacktoberfest 2026 and explored
+                        project development, AI, and application building.
+                        An opportunity to learn through hands-on experience.
+                    </p>
+                    <span class="achievement-label">Participation</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section">
+            <div class="section-heading">
+                <span class="section-tag">07 / CONTACT</span>
+                <h2>Let's <span class="gradient-text">Connect</span></h2>
+                <p>Have an idea, question or opportunity? Feel free to connect.</p>
+            </div>
+
+            <div class="contact-grid">
+
+                <div class="contact-info glass-card">
+                    <h3>Find Me Online</h3>
+                    <p>I'm always interested in learning and connecting with others.</p>
+
+                    <a href="https://www.linkedin.com/in/arjun-sharma-26a567419"
+                       target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <span>💼</span>
+                        <span>
+                            <strong>LinkedIn</strong>
+                            <small>Connect professionally</small>
+                        </span>
+                        ↗
+                    </a>
+
+                    <a href="https://github.com/codesnippet-lab/invoice-pilot-ai"
+                       target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <span>🐙</span>
+                        <span>
+                            <strong>GitHub</strong>
+                            <small>Explore my InvoicePilot AI repository</small>
+                        </span>
+                        ↗
+                    </a>
+
+                    <div class="contact-location">
+                        📍 Bengaluru, India
+                    </div>
+                </div>
+
+                <form id="contact-form" class="contact-form glass-card">
+
+                    <h3>Send a Message</h3>
+
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name"
+                               placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email"
+                               placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" rows="5"
+                                  placeholder="Write your message..."
+                                  required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn primary-btn">
+                        Validate Message ↗
+                    </button>
+
+                    <p id="form-status" role="status" aria-live="polite"></p>
+
+                    <small class="form-note">
+                        Demo form: validates your information locally.
+                        Messages are not sent or stored.
+                    </small>
+
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <a href="#home" class="logo">AS<span>.</span></a>
+
+        <p>Designed and built by Arjun Sharma.</p>
+        <p>Learning today. Building tomorrow. 🚀</p>
+
+        <a href="#home" class="back-top">Back to top ↑</a>
+
+        <small>© <span id="current-year"></span> Arjun Sharma. All rights reserved.</small>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
